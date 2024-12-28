@@ -8,7 +8,7 @@ import asyncio
 # Включаем логирование, чтобы не пропустить важные сообщения
 logging.basicConfig(level=logging.INFO)
 # Объект бота
-bot = telebot.TeleBot('7476944299:AAGoWkqfCfJBwLLDrMQP8m8FL1pmdKmycD0')
+bot = telebot.TeleBot('')
 
 # Хэндлер на команду /start
 @bot.message_handler(commands=['start'])
